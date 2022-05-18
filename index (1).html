@@ -1,0 +1,176 @@
+<html>
+    <p>
+        How to declare the arrays ? 
+        <h4 id="declaration_of_arrays"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to fetch the first element of the array ?
+        <h4 id="access_first_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to fetch the second element of the array ?
+        <h4 id="access_second_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to fetch the third element of the array ?
+        <h4 id="access_third_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to get the length of the array ?
+        <h4 id="display_length_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to loop the array array ?
+        <h4 id="loop_the_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to add element at the end of the array ?
+        <h4 id="add_element_at_the_end_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to add more element at the end of the array ?
+        <h4 id="add_more_element_at_the_end_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to declare the arrays with alphabets ? 
+        <h4 id="display_alphabets_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to sort the arrays with alphabets ? 
+        <h4 id="display_sorted_alphabets_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to reverse the arrays with alphabets ? 
+        <h4 id="display_reverse_array"> 
+        </h4>
+    </p>
+<hr>      
+    <p>
+        How to declare the arrays with numbers ? 
+        <h4 id="display_number_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to find the maximum number from the arrays ? 
+        <h4 id="display_maximum_number"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to find the minimum number from the arrays ? 
+        <h4 id="display_minimum_number"> 
+        </h4>
+    </p>
+
+    <h3 style="background-color: red; font-size: 23px;">
+        ADDITIONAL ACTIVITY
+    </h3>
+    <p>
+        How to add element at the start of the array ? Hint use unshift method
+        <h4 id="add_element_at_the_start_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to add more element at the start of the array ? Hint use unshift method
+        <h4 id="add_more_element_at_the_start_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to remove element from the start of the array ? Hint use shift method
+        <h4 id="remove_element_from_start_of_array"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        How to remove element from the end of the array ? Hint use pop method
+        <h4 id="remove_element_from_end_of_array"> 
+        </h4>
+        <html>
+            <head>
+              <title>gesture Web App</title>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+          
+              <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+          
+              <link rel="stylesheet" type="text/css" href="style.css">
+            </head>
+          
+            <body>
+            <div class="container">
+            
+              <center>
+                <h3 class="btn btn-info heading">GESTURE WEB APP
+                <br>
+                <span>&#128076;</span>
+                <span>&#128077;</span>
+                <span>&#9996;</span>
+                <span>&#9994;</span>
+                <span>&#128079;</span>
+                <span>&#129304;</span>
+                </h3>
+          
+                <br><br>
+          
+                <p style="font-size: 22px;">Take a selfie of a gesture to know about it's meaning</p>
+                <p style="font-size: 18px;">On the following gestures the model is trained - </p>
+                <p style="font-size: 30px;">
+                  &#128076; | &#128077; | &#9996;
+                </p>
+          
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <label>Webcam View - </label>
+                  <div id="camera"></div>
+                  <br><br>
+                  <button onclick="take_snapshot();" class="btn btn-primary">Capture Image</button>
+                </div>
+          
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <label>Prediction - </label>
+                  <p class="object_name" id="result_object_name"></p>
+                  <p class="gesture_icon" id="result_object_gesture_icon"></p>
+                </div>
+          
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <label>Snapshot - </label>
+                  <div id="result"></div>
+                  <br><br>
+                  <button onclick="check();" class="btn btn-success">Predict Hand Gesture</button>
+                 </div>
+          
+              </center>
+          
+            </div>
+          
+          <script src="main.js"></script>
+          
+            </body>
+          </html>
+          
+           
